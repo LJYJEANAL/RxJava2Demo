@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <explode/> <!--从中心放大或者缩小-->
+    <changeBounds/> <!--改变目标视图的布局边界-->
+    <changeTransform/> <!--改变目标图片的大小和缩放比例-->
+    <changeClipBounds/><!--裁剪目标视图边界-->
+    <changeImageTransform/><!--改变目标视图的缩放比例和旋转角度-->
+</transitionSet>

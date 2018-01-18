@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimarys">#3F51B5</color>
+    <color name="colorPrimaryDarks">#303F9F</color>
+    <color name="colorAccents">#FF4081</color>
+
+    <color name="colorwith">#ffffff</color>
+    <color name="dark">#acaaaa</color>
+    <color name="indicatorSelectColor">#dc341b</color>
+    <color name="blue">#303F9F</color>
+    <color name="violet">#FF6C0CEA</color>
+
+    <color name="accent_color">@color/blue</color>
+    <color name="statusBarColor">@color/blue</color>
+    <color name="navigationBarColor">@android:color/black</color>
+    <color name="drawerArrowColor">@android:color/white</color>
+
+    <color name="md_red">#D32F2F</color>
+    <color name="md_purple">#673AB7</color>
+    <color name="md_blue">#2196F3</color>
+    <color name="md_green">#43A047</color>
+    <color name="md_white">#FAFAFA</color>
+    <color name="md_e">#FFFF07CD</color>
+    <color name="tab_background">#7FFCDB05</color>
+
+    <color name="md_amber">#FFC107</color>
+    <color name="md_lime">#CDDC39</color>
+    <color name="md_pink">#fa5c06</color>
+    <color name="md_blue_grey">#78909C</color>
+
+    <color name="text_color_primary">#212121</color>
+    <color name="text_color_secondary">#424242</color>
+
+    <color name="text_color_primary_dark">#FAFAFA</color>
+    <color name="text_color_secondary_dark">#EEEEEE</color>
+
+</resources>

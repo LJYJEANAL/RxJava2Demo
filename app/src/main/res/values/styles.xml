@@ -1,0 +1,93 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#FF4081</item>
+        <!-- <item name="android:windowTranslucentStatus">true</item>-->
+        <!-- 允许使用transitions -->
+        <item name="android:windowContentTransitions">true</item>
+        <!--设置menu中item的图标颜色-->
+        <item name="android:textColorSecondary">#ffffff</item>
+    </style>
+
+    <style name="AppTheme_No_Title" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorPrimaryDark">#FF344BCE</item>
+        <item name="colorAccent">#FF4081</item>
+    </style>
+
+    <style name="myTheme" parent="AppTheme_No_Title">
+        <item name="colorPrimary">#3F51B5</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <!--设置menu中item的图标颜色-->
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+    <style name="SeachViewActivityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--toolbar菜单项图标的颜色-->
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--标题与NavigationIcon的距离-->
+    <style name="Toolbar.MyStyle" parent="Base.Widget.AppCompat.Toolbar">
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+        <!--设置menu中item的图标颜色-->
+        <item name="android:textColorSecondary">#ffffff</item>
+    </style>
+
+    <!--Toolbar标题文字大小-->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">15sp</item>
+        <!--设置menu中item的图标颜色-->
+        <item name="android:textColorSecondary">#ffffff</item>
+    </style>
+
+    <style name="collapsed.TitleTextSize" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>  <!--设置menu中item的图标颜色-->
+        <item name="android:textColorSecondary">#ffffff</item>
+
+    </style>
+
+    <style name="expanded.TitleTextSize" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+        <!--设置menu中item的图标颜色-->
+        <item name="android:textColorSecondary">#ffffff</item>
+    </style>
+</resources>

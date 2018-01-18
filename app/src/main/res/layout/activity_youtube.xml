@@ -1,0 +1,45 @@
+<FrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="list" />
+
+    <com.flavienlaurent.vdh.YoutubeLayout
+        android:id="@+id/dragLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:background="#AD78CC"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:tag="text"
+            android:text="Drag me to the bottom"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorwith"
+            android:gravity="center"
+            android:tag="desc"
+            android:text="在DragHelperCallback的回调方法中有很多的方法可以检测View的事件，如常见的clampViewPositionHorizontal、clampViewPositionVertical，并且clampViewPositionHorizontal 和 clampViewPositionVertical必须要重写，因为默认它返回的是0。
+来看clampViewPositionHorizontal的处理。
+在DragHelperCallback中实现clampViewPositionHorizontal方法， 并且返回一个适当的数值就能实现横向拖动效果。"
+            android:textColor="@android:color/black"
+            android:textSize="28sp" />
+
+    </com.flavienlaurent.vdh.YoutubeLayout>
+</FrameLayout>

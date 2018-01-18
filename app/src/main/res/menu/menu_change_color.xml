@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/s1"
+        android:orderInCategory="100"
+        android:title="VibrantSwatch()"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/s2"
+        android:orderInCategory="100"
+        android:title="DarkVibrantSwatch()"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/s3"
+        android:orderInCategory="100"
+        android:title="LightVibrantSwatch()"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/s4"
+        android:orderInCategory="100"
+        android:title="MutedSwatch()"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/s5"
+        android:orderInCategory="100"
+        android:title="getDarkMutedSwatch()"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/s6"
+        android:orderInCategory="100"
+        android:title="getLightMutedSwatch()"
+        app:showAsAction="never" />
+
+
+</menu>

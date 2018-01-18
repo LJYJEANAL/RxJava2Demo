@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="reactnative.ng.smc.rxjava2demo.MainActivity"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.github.ybq.android.spinkit.SpinKitView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView.Large.ThreeBounce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:SpinKit_Color="@color/colorPrimaryDark" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spin_kit"
+        android:layout_margin="10dp"
+        android:dropDownHorizontalOffset="15sp"
+        android:entries="@array/languages"
+        android:padding="15dp"
+        android:spinnerMode="dialog" />
+
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/spinner"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/ripple_with_mask"
+        android:text="next"
+        android:textColor="?android:textColorPrimary"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/next_btn"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/ripple_with_mask"
+        android:text="tJUM" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btn2"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/ripple_with_mask"
+        android:text="jumToMVP" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btn3"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/ripple_with_mask"
+        android:text="Lrecycle" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btn4"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/ripple_with_mask"
+        android:text="contentprovider" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btn5"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/ripple_with_mask"
+        android:text="SOCKET" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btn6"
+        android:layout_margin="@dimen/dp_10"
+
+        android:background="@drawable/ripple_with_mask"
+        android:text="AIDL" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btn7"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/ripple_with_mask"
+        android:text="拖拽" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btn8"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/ripple_with_mask"
+        android:text="youtu" />
+
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/btn9"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/ripple_color_outside"
+        android:text="MaterialView" />
+
+
+</RelativeLayout>
+</ScrollView>
